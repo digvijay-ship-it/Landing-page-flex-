@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0%;
+}
+.header{
+    height: 35vh;
+    background-color: #1f2937;
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vh;
+}
+.header-navbar .logo{
+    font-size: large;
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header .header-links >a{
+    text-decoration: none;
+    margin-inline: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header-content{
+
+}
