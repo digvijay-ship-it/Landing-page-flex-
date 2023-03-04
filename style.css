@@ -1,29 +1,100 @@
-*{
+* {
     padding: 0px;
-    margin: 0%;
+    margin: 0px;
 }
-.header{
-    height: 35vh;
-    background-color: #1f2937;
+
+.hleft,
+.hright {
+    width: 100px;
 }
-.header-navbar{
+
+.header-links {
     display: flex;
-    justify-content: space-around;
+    gap: 25px;
     align-items: center;
-    height: 4vh;
 }
-.header-navbar .logo{
-    font-size: large;
-    font-weight: 900;
-    font-size: 24px;
-    color: #f9faf8;
-}
-.header .header-links >a{
+
+a {
     text-decoration: none;
-    margin-inline: 20px;
+    color: #f9f8fa;
+    cursor: pointer;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9f8fa;
+    font-weight: 800;
+    align-self: center;
+}
+
+.heroMain {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9f8fa;
+}
+
+.heroSecondary {
     font-size: 18px;
     color: #e5e7eb;
+    width: 300px;
 }
-.header-content{
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    height: 500px;
+    margin: 0px auto;
+    width: inherit;
+    background-color: #1f2937;
+}
+
+.hmid {
+    width: inherit;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: 15%;
+}
+
+.hmid .hcon {
+    display: flex;
+    width: inherit;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 60%;
+    gap: 20px;
+
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hcon .text>button {
+    justify-self: flex-start;
+    border-radius: 10px 15px 30px;
+    align-self: flex-start;
+    height: 30px;
+    cursor: pointer;
+}
+
+img {
+    flex: .5;
+    object-fit: cover;
+    border-radius: 18px;
 }
